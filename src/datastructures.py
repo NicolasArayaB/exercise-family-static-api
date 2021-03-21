@@ -36,9 +36,7 @@ class FamilyStructure:
     def delete_member(self, id):
         # fill this method and update the return
         for member in self._members:
-            print(member["id"])
             if member["id"] == id:
-                print("YEY")
                 self._members.remove(member)
         return
 
